@@ -1,4 +1,4 @@
-##input data
+##input data, with "test" file and "train" file and features.txt in the working directory 
 xtest<-read.table("test/X_test.txt",header=FALSE,na.strings="",sep="")
 ytest<-read.table("test/y_test.txt",header=FALSE,sep=" ")
 subtest<-read.table("test/subject_test.txt",header=FALSE,sep=" ")
